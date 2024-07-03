@@ -1,0 +1,97 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: transparent;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+  background: rgb(30, 30, 30);
+  color: white;
+  overflow: hidden;
+  overflow-y:scroll ;
+}
+
+
+#Projects{
+  overflow: hidden;
+  max-width: 80rem;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+.Title{
+  margin: 1rem 0;
+  font-size: 3rem;
+}
+.ProjectDesc{
+  font-style: 300;
+  font-size:1rem;
+}
+.boxes{
+  display: flex;
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 90%;
+    text-align:center;
+    flex-wrap: wrap;
+
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1.5rem 2rem;
+  border-radius:0.5rem;
+  background: rgb(51, 55, 63);
+  height: 25rem;
+  width: 30rem;
+  border: 1px solid rgb(155, 198, 91);
+}
+.box h2{
+  margin:1rem 0;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+.boxDesc{
+  font-weight: 200;
+  text-align: center;
+  margin: 2rem;
+}
+@media screen and (max-width:912px) {
+  .box{
+  height: 45vh;
+   width: 40vh;
+  }
+  .btn{
+    height: 35vh;
+    width: 35vw;
+    
+  }
+}
+.box:hover{
+  transform: scale(1.2);
+  border: 1px solid rgb(100, 224, 62);
+}
+.btn{
+  background-color: rgb(58, 55, 100);
+  height: 3rem;
+  width: 7rem;
+  margin: 5rem;
+  border-radius:4px ;
+  padding: 1rem;
+  padding-bottom:1rem ;
+ font-weight: 800;
+ border: 1px solid green;
+}
+
+
+
